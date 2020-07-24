@@ -22,7 +22,7 @@
       $fields->beta_version = KeymanVersion::beta_version;
 
       echo <<<END
-<body data-device="$fields->device">
+<body data-device="$fields->device" data-platform='unknown'>
 END;
 
       Menu::render_phone_menu($fields);
